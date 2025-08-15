@@ -1,0 +1,7 @@
+I have provided a chapter in a material handbook in PDF format. The chapter contains information about the properties and components of various alloys. I would like you to act as a material scientist and help me analyze the chapters.
+
+1. Your Task:
+Retrieve all the components that have the exact information of Yield Strength and Density in the book.
+
+2. Expected Output:
+List the recommended alloy components along with their corresponding properties (density, yield strength, etc.). Please retrieve all the results with information of Alloy Component, Density (g/cm³) and Yield Strength (MPa) in a json format.

@@ -1,0 +1,20 @@
+I have provided a component extracted from a material handbook. The contents contain information about the properties and components of various alloys. I would like you to act as a material scientist and help me analyze the contents.
+
+Your Task: 
+Evaluate the alloy component based on the primary requirements provided. Your task is to determine if it meets the primary requirements.
+
+Primary Requirements (Must-Have):
+{requirements}
+Expected Output: Output whether it meets the primary requirements. If it does, specify the properties (number of elements and cost-related details). If not, state which requirement(s) it fails to meet.
+
+Format: Please present the result in a clear json format as follows:
+```json
+{{
+  "Alloy Component": [Name of Component]
+  "Meets Requirements": [Yes/No]
+  "Properties":{{
+    "Number of elements": [Number]
+    "Has expensive elements or not": [Yes/No]
+  }}
+}}
+```

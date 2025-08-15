@@ -1,0 +1,9 @@
+Primary Requirements:
+- At least 4 elements
+- Low manufacturing cost without expensive elements such as Zr, Mo
+
+Secondary Requirements:
+- Yield Strength > 950 MPa
+- Density < 4.5 g/cm³
+
+If not all criteria can be met, relax them bottom-up to find the closest match.

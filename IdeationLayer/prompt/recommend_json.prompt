@@ -1,0 +1,28 @@
+I have provided some filtered contents from a material handbook. The contents contain information about the properties and components of various alloys. I would like you to act as a material scientist and help me analyze the contents.
+
+1. Your Task:
+Recommend the relevant alloy components and their properties that meet my requirements.
+
+2. Property Requirements:
+Based on the filtered data, recommend alloy components that meet the following property requirements:
+
+Requirements (Nice-to-Have): 
+- Have clear and unambiguous component.
+{requirements}
+
+You need to first list all the components that satisfy the primary requirements, and then choose those that meet the requirements. 
+If no information in the document(s) fully satisfies all the requirements, try to recommend components that satisfies as much requirements as possible.
+For requirements that are satisfied by the components, it is encouraged to exceed the requirements so that we can have more space for further modification.
+For components that have the same performance on one requirement, prefer those perform better on other requirements.
+
+3. Expected Output:
+List the recommended alloy components along with their corresponding properties (density, yield strength, etc.).
+Then point out the most recommended one.
+
+4. Format:
+Please present the results in a clear table format, with columns for:
+- Alloy Component
+- Density (g/cm³)
+- Yield Strength (MPa)
+- Number of elements
+- Has expensive elements or not
