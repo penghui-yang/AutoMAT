@@ -1,6 +1,6 @@
-# Alloy Recommendation System
+# AutoMAT Ideation Layer
 
-A comprehensive system for recommending titanium alloys based on user requirements using LLM-powered analysis of material handbooks.
+A comprehensive system for recommending alloys based on user requirements using LLM-powered analysis of material handbooks.
 
 ## Overview
 
@@ -41,7 +41,7 @@ IdeationLayer/
 
 ## Usage
 
-Save the requirements in the file `./user_requirements.txt`. Please strictly write the requirements that are not related to the value in the primary requirements, and the numerical requirements (such as density, YS) in the secondary requirements. An example is given in the file `./user_requirements.txt`.
+Save the user requirements in the file `./user_requirements.txt`. Please strictly write the requirements that are not related to the value in the primary requirements, and the numerical requirements (such as density, YS) in the secondary requirements. An example is given in the file `./user_requirements.txt`.
 
 Then run the main system:
 ```bash
