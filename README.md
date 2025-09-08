@@ -1,4 +1,4 @@
-# AutoMAT: A Hierarchical Autonomous Framework for Accelerating Multi-Objective Alloy Design
+# Autonomous, Physics-Grounded Pipeline for Multi-Objective Alloy Design
 
 AutoMAT is a hierarchical and autonomous framework for alloy discovery that integrates large language models (LLMs), automated CALPHAD simulations, AI-driven search, and experimental validation into a unified design loop. To our knowledge, AutoMAT is the first system to span the entire alloy design pipeline, from ideation to simulation and optimization, offering a more scalable, interpretable, and efficient alternative to conventional methods.
 
@@ -67,7 +67,7 @@ Run predefined optimization cases:
 ```bash
 cd SimulationLayer
 
-# Ti-based alloys (specific strength optimization)
+# Ti-based alloys (yield strength / exp(density) optimization)
 python AutoMAT_SimulationLayer.py --case case1 --iterations 5 --workers 5
 
 # High-entropy alloys (yield strength optimization)
